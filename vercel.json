@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run bootstrap:ci && npm run build:all",
+  "buildCommand": "npm run bootstrap:ci && NODE_ENV=production npm run build --workspace=@deriv/core",
   "outputDirectory": "packages/core/dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
