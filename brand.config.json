@@ -1,0 +1,70 @@
+{
+    "brand_name": "Mkulima Trader",
+    "brand_logo": "brand/brand-logo.svg",
+    "brand_logo_dark": "brand/brand-logo-dark.svg",
+    "brand_domain": "mkulimatrader.com",
+    "brand_hostname": {
+        "staging": "staging.trader.mkulimatrader.com",
+        "production": "trader.mkulimatrader.com"
+    },
+    "platform": {
+        "name": "Mkulima Trader",
+        "description": "Smart tools for serious Deriv traders. Trade smarter, not harder.",
+        "logo": "brand/platform-logo.svg",
+        "home_url": "https://mkulimatrader.com",
+        "help_centre_url": "https://mkulimatrader.com/help"
+    },
+    "signup_url": {
+        "production": "https://deriv.partners/rx?sidc=6D203A32-6635-4783-BB11-1296C141843C&utm_campaign=dynamicworks&utm_medium=affiliate&utm_source=CU83616",
+        "staging": "https://deriv.partners/rx?sidc=6D203A32-6635-4783-BB11-1296C141843C&utm_campaign=dynamicworks&utm_medium=affiliate&utm_source=CU83616"
+    },
+    "deposit_url": {
+        "staging": "https://staging.trader.mkulimatrader.com/transfer",
+        "production": "https://trader.mkulimatrader.com/transfer"
+    },
+    "auth": {
+        "staging": "https://staging-auth.deriv.com",
+        "production": "https://auth.deriv.com",
+        "oauth_scopes": ["trade", "account_manage"],
+        "oauth_redirect_uri_staging": "https://staging.trader.mkulimatrader.com",
+        "oauth_redirect_uri_production": "https://trader.mkulimatrader.com",
+        "oauth_app_id": ""
+    },
+    "derivws": {
+        "staging": "https://staging-api.derivws.com",
+        "production": "https://api.derivws.com"
+    },
+    "api_core": {
+        "staging": "staging-api-core.deriv.com",
+        "production": "api-core.deriv.com"
+    },
+    "api": {
+        "staging": "staging-api.deriv.com",
+        "production": "api.deriv.com"
+    },
+    "app_id": {
+        "staging": 16929,
+        "production": 16929
+    },
+    "colors": {
+        "primary": "#1DBDA0",
+        "secondary": "#27698A",
+        "tertiary": "#F5B860",
+        "success": "#1DBDA0",
+        "danger": "#F95656",
+        "warning": "#F5B860",
+        "info": "#27698A",
+        "neutral": "#8BAAB8",
+        "black": "#0D1B2A",
+        "white": "#FFF8F2"
+    },
+    "color_variants": {
+        "auto_generate": true,
+        "lighten_percentage": 10,
+        "darken_percentage": 10
+    },
+    "features": {
+        "dark_mode": true,
+        "language_switcher": false
+    }
+}
